@@ -40,8 +40,8 @@ entry_field.place(x=20 , y=100)
 def Text_to_speech():
     Message = entry_field.get()
     speech = gTTS(text = Message)
-    speech.save('DataFlair.mp3')
-    playsound('DataFlair.mp3')
+    speech.save('aloha-tts-convertor.mp3')
+    playsound('aloha-tts-convertor.mp3')
 
 def Exit():
     root.destroy()
